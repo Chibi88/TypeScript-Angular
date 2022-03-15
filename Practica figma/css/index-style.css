@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "MiFuente";
+    src: local("NombreLocal"), url(/RutaDeLaFuente);
+} */
+
+
+
+aside,
+h1,
+footer {
+    font-family: Roboto, sans-serif;
+}
+
+/* Formato del aside */
+
+aside {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    line-height: 17.58px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;  /* no se si esta muy bueno esto*/
+
+}
+
+
+/* Formato del header */
+
+header {
+    background-color: #00669f;
+    top: 0px;
+    position: relative;
+    box-shadow: 0px 0px 15px rgb(117, 117, 117);    /* como hago para que salga solo para abajo?*/
+}
+
+h1 {
+    color: white;
+    margin: 0%;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 35px;
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    margin-left: 20px;
+
+}
+
+.logo-tienda {
+    padding: 10px;
+}
+
+
+/* Formato del body */
+
+body {
+    margin: 0px;
+}
+
+
+/* Formato del main */
+
+h2 {
+    font-family: Inter, sans-serif;
+    font-size: 72px;
+}
+
+.sendBtn {
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #1CD1B0;
+    width: 420px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+main {
+    width: 408px;
+    margin: auto;
+    padding: 110px;
+}
+
+.form-input {
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.form-input,
+.register {
+    font-family: Karla;
+    font-weight: bold;
+}
+
+.register {
+    text-align: center;
+}
+
+
+/* Formato del footer */
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 61px;
+    background: #00669F;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
